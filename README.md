@@ -21,3 +21,26 @@ The utility is written in pure JavaScript and doesn't require any additional lib
 
 ```html
 <script src="webpagejs-element-creator.js"></script>
+```
+
+## Usage
+
+To create an HTML element, call the `_createNode()` function with the desired tag name and configuration options.
+```javascript
+webpage._createNode("div", {
+    className: "your_classname",
+    dataset: {
+        id: 1728
+    },
+    attr: {
+        controls: "true"
+    },
+    listener: {
+        event: ['click','touchstart'],
+        handler: function(e) {
+            console.log(e)
+        }
+    },
+    innerChild: document.body
+});
+```
