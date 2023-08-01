@@ -1,6 +1,6 @@
-# Webpage Element Creator
+# WebpageJS - Element Creator
 
-Webpage Element Creator is a JavaScript utility that allows you to easily create HTML elements with various options and configurations.
+WebpageJS is a JavaScript utility that allows you to easily create HTML elements with various options and configurations.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -17,7 +17,7 @@ This utility provides a `_createNode()` function that simplifies the process of 
 
 ## Installation
 
-The utility is written in pure JavaScript and doesn't require any additional libraries. Simply include the `webpage-element-creator.js` script in your HTML file.
+The utility is written in pure JavaScript and doesn't require any additional libraries. Simply include the `webpagejs-element-creator.js` script in your HTML file.
 
 ```html
-<script src="webpage-element-creator.js"></script>
+<script src="webpagejs-element-creator.js"></script>
